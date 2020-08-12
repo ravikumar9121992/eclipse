@@ -6,7 +6,7 @@ public class General extends Global{
 	public  void openbrowser() throws Exception{
 		System.setProperty("webdriver.chrome.driver","D:\\eclipse-workspace\\Selenium-project\\Browser-driver\\chromedriver.exe");
 		driver=new ChromeDriver();
-		driver.navigate().to("fb.com");
+		driver.navigate().to("ffb.com");
 		
 	} 
 
